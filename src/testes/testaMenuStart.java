@@ -1,6 +1,6 @@
 package testes;
 
-import menus.MenusUtilizados;
+import utilitarios.MenusUtilizados;
 
 public class testaMenuStart {
 

@@ -1,4 +1,4 @@
-package menus;
+package utilitarios;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -12,7 +12,6 @@ public class MenusUtilizados {
 		FileInputStream fis = new FileInputStream("Compasso ART ASCII");
 		InputStreamReader isr = new InputStreamReader(fis);
 		BufferedReader br = new BufferedReader(isr);
-		
 		
 		String linha = br.readLine();
 		
@@ -34,6 +33,7 @@ public class MenusUtilizados {
 		System.out.println("Opcao 2 - Imprime pessoas cadastradas");
 		System.out.println("Opcao 0 - Sair do programa");
 		System.out.println("_____________________________________");
+		System.out.println("Digite a Opção: ");
 	}
 
 }
